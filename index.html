@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Image Upload</title>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Zetoe</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="uploadForm">
+                        <input type="file" name="file" id="file" class="inputfile" accept=".png, .jpg, .jpeg">
+                        <label for="file" title="Choose an image">Choose an image</label>
+                        <button id="btnUpload" title="Click to upload"><span class="glyphicon glyphicon-upload"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container alerts-container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="alert alert-success alert-display-state"></div>
+                    <div class="alert alert-info alert-display-state"></div>
+                    <div class="alert alert-warning alert-display-state"></div>
+                    <div class="alert alert-danger alert-display-state"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container images-container">
+            <div class="row images-row text-center">
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">&copy; Zetoe - 2017</span>
+            </div>
+        </footer>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/block-ui.js"></script>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
